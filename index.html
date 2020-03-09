@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple WebRTC</title>
+</head>
+
+<body>
+    <h3 id="peer-id">My peer id: </h3>
+    <br>
+    <video id="localStream" width="300" controls></video>
+    <br><br>
+    <video id="friendStream" width="300" controls></video>
+    <br><br>
+    <input type="text" placeholder="Your friend's peer id" id="txtFriendId">
+    <br><br>
+    <button id="btnCall">Connect</button>
+    <br>
+</body>
+<script src="dist/bundle.js"></script>
+
+</html>
